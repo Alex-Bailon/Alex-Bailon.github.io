@@ -7,3 +7,9 @@ body {
 h1 {
     font-family: 'Teko', sans-serif;
 }
+
+.container-lg {
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
