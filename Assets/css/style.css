@@ -8,3 +8,10 @@ h1 {
     font-family: 'Teko', sans-serif;
 }
 
+.container-lg {
+    height: 100vh;
+}
+
+footer {
+    text-align: center;
+}
