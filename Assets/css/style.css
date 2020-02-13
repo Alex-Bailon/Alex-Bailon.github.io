@@ -9,14 +9,14 @@ h1 {
 }
 
 .container-lg {
-    height: 100vh;
+    height: 90vh;
 }
 
 footer {
     text-align: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .container-lg{
         height: auto;
     }
