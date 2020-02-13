@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- Link to style.css -->
     <link rel="stylesheet" href="./assets/css/reset.css">
 
     <!-- Bootstrap CSS -->
@@ -16,12 +16,12 @@
   </head>
   <body>
     <main>
+      <!-- Fixed navbar code -->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="index.html">Alex Bailon</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-      
+        </button> 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
@@ -36,13 +36,14 @@
           </ul>
         </div>
       </nav>
-
+      <!-- Main content below starting with the page header in the 1st row -->
       <div class="container-lg">
         <div class="row mt-5 py-1 px-1">
           <h1>Portfolio</h1>
         </div>
-
+        <!-- 2nd row with a max of 3 cards/col -->
         <div class="row row-cols-1 row-cols-md-3">
+          <!-- card one -->
           <div class="col mb-4">
             <div class="card h-100">
               <a href="https://alex-bailon.github.io/code-refactor/" target="_blank">
@@ -54,6 +55,7 @@
               </div>
             </div>
           </div>
+          <!-- card two -->
           <div class="col mb-4">
             <div class="card h-100">
               <a href="https://google.com" target="_blank">
@@ -65,6 +67,7 @@
               </div>
             </div>
           </div>
+          <!-- card three -->
           <div class="col mb-4">
             <div class="card h-100">
               <a href="https://amazon.com" target="_blank">
@@ -78,7 +81,7 @@
           </div>
         </div>
       </div>
-
+      <!-- footer code below always going to be at the bottom of the page vs being fixed. If you want fixed footer add the class fixed-bottom and remove position-relative -->
       <footer class="footer position-relative py-3">
           <span class="text-muted">Made by Alex Bailon <br> &copy 2020</span>
       </footer>
