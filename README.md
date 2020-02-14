@@ -16,7 +16,7 @@ Below are images of how the protfolio tab is reponsive on a moblie phone vs a de
 ![Photo of Alex Bailon's portfolio tab on a desktop](./assets/images/portfolio_dktp.png)
 Figure 1: Desktop view
 
-![Photo of Alex Bailon's portfolio tab on a moblie device](./assets/images/portfolio_mb.png = 250X500)\
+![Photo of Alex Bailon's portfolio tab on a moblie device](./assets/images/portfolio_mb.png =250X500)\
 Figure 2: Moblie View
 
 ## Conclusion
