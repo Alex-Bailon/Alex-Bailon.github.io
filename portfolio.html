@@ -1,108 +1,147 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Link to reset.css -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Link to reset.css -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
 
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    
-    <title>Alex Bailon</title>
-  </head>
-  <body>
-    <!-- Fixed navbar code -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="index.html">Alex Bailon</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About Me</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./Assets/css/style.css">
+
+  <title>Alex Bailon</title>
+</head>
+
+<body>
+  <!-- Fixed navbar code -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="index.html">Alex Bailon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About Me</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <!-- Main content below starting with the page header in the 1st row -->
+    <div class="container-lg">
+      <div class="row mt-5 py-1 px-1">
+        <h1>Portfolio</h1>
       </div>
-    </nav>
-    <main>
-      <!-- Main content below starting with the page header in the 1st row -->
-      <div class="container-lg">
-        <div class="row mt-5 py-1 px-1">
-          <h1>Portfolio</h1>
+      <!-- 2nd row with a max of 3 cards/col -->
+      <div class="row row-cols-1 row-cols-md-3">
+        <!-- card one -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="https://kyleres.github.io/Finance_App/" target="_blank">
+              <img src="./assets/images/Flyte.png" class="card-img-top"
+                alt="Image of Horiseon homepage, my first project. Blue nav bar with an image of people working together in an office setting.">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Flyte</h5>
+              <p class="card-text">Stock market app that gets information from three APIs. With a group of five, we had
+                a little more than a week to creat the app from scratch. <a
+                  href="https://github.com/kyleres/Finance_App" target="_blank">Link to Github repository</a></p>
+            </div>
+          </div>
         </div>
-        <!-- 2nd row with a max of 3 cards/col -->
-        <div class="row row-cols-1 row-cols-md-3">
-          <!-- card one -->
-          <div class="col mb-4">
-            <div class="card h-100">
-              <a href="https://kyleres.github.io/Finance_App/" target="_blank">
-                <img src="./assets/images/Flyte.png" class="card-img-top" alt="Image of Horiseon homepage, my first project. Blue nav bar with an image of people working together in an office setting.">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Flyte</h5>
-                <p class="card-text">Stock market app that gets information from three APIs. With a group of five, we had a little more than a week to creat the app from scratch. <a href="https://github.com/kyleres/Finance_App" target="_blank">Link to Github repository</a></p>
-              </div>
+        <!-- card two -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="https://alex-bailon.github.io/weather-dashboard/" target="_blank">
+              <img src="./assets/images/WeatherDashboard.png" class="card-img-top"
+                alt="Image of google homepage website. White background with Google logo in the middle.">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Weather Dashboard</h5>
+              <p class="card-text">A weather app that gets information from an API and displays the current and five day
+                weather forecast for the searched city. Saves cities into local storage. <a
+                  href="https://github.com/Alex-Bailon/weather-dashboard" target="_blank">Link to Github repository</a>
+              </p>
             </div>
           </div>
-          <!-- card two -->
-          <div class="col mb-4">
-            <div class="card h-100">
-              <a href="https://alex-bailon.github.io/weather-dashboard/" target="_blank">
-                <img src="./assets/images/WeatherDashboard.png" class="card-img-top" alt="Image of google homepage website. White background with Google logo in the middle.">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Weather Dashboard</h5>
-                <p class="card-text">A weather app that gets information from an API and displays the current and five day weather forecast for the searched city. Saves cities into local storage.  <a href="https://github.com/Alex-Bailon/weather-dashboard" target="_blank">Link to Github repository</a></p> 
-              </div>
+        </div>
+        <!-- card three -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="https://alex-bailon.github.io/code-quiz/" target="_blank">
+              <img src="./assets/images/CodeQuiz.png" class="card-img-top"
+                alt="Image of google homepage website. White background with Google logo in the middle.">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Code Quiz</h5>
+              <p class="card-text">A fun short quiz that uses JS to render questions and display them onto the html. At
+                the end of quiz user can save score and high scores are saved to local storage. <a
+                  href="https://github.com/Alex-Bailon/code-quiz" target="_blank">Link to Github repository</a></p>
             </div>
           </div>
-          <!-- card three -->
-          <div class="col mb-4">
-            <div class="card h-100">
-              <a href="https://alex-bailon.github.io/code-quiz/" target="_blank">
-                <img src="./assets/images/CodeQuiz.png" class="card-img-top" alt="Image of google homepage website. White background with Google logo in the middle.">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Code Quiz</h5>
-                <p class="card-text">A fun short quiz that uses JS to render questions and display them onto the html. At the end of quiz user can save score and high scores are saved to local storage. <a href="https://github.com/Alex-Bailon/code-quiz" target="_blank">Link to Github repository</a></p> 
-              </div>
+        </div>
+
+        <!-- card four -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="https://frozen-retreat-67912.herokuapp.com/" target="_blank">
+              <img src="./assets/images/burger-app.png" class="card-img-top"
+                alt="Image of google homepage website. White background with Google logo in the middle.">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Burger App</h5>
+              <p class="card-text">An app that allows the user to input their favorite burgers, stores them into an MySQL database and with the click of a button “devours” the burger (update MySQL database). 
+                <a href="https://github.com/Alex-Bailon/burger" target="_blank">Link to Github repository</a></p>
             </div>
           </div>
-          
-          <!-- card four -->
-          <div class="col mb-4">
-            <div class="card h-100">
-              <a href="https://alex-bailon.github.io/day-planner/" target="_blank">
-                <img src="./assets/images/DayPlanner.png" class="card-img-top" alt="Image of Amazon homepage website. Blue nav bar on top wiht Valentine's day deals showing.">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Day Planner</h5>
-                <p class="card-text">A simple day planner for regular business hours. Displays current date and check for the current hour to know if an event has passed, current or in the future. <a href="https://github.com/Alex-Bailon/day-planner" target="_blank">Link to Github repository</a></p>
-              </div>
+        </div>
+
+        <!-- card five -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <a href="https://alex-bailon.github.io/day-planner/" target="_blank">
+              <img src="./assets/images/DayPlanner.png" class="card-img-top"
+                alt="Image of Amazon homepage website. Blue nav bar on top wiht Valentine's day deals showing.">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Day Planner</h5>
+              <p class="card-text">A simple day planner for regular business hours. Displays current date and check for
+                the current hour to know if an event has passed, current or in the future. <a
+                  href="https://github.com/Alex-Bailon/day-planner" target="_blank">Link to Github repository</a></p>
             </div>
           </div>
         </div>
       </div>
       <!-- footer code below always going to be at the bottom of the page vs being fixed. If you want fixed footer add the class fixed-bottom and remove position-relative -->
       <footer class="footer position-relative py-3">
-          <span class="text-muted">Made by Alex Bailon <br> &copy 2020</span>
+        <span class="text-muted">Made by Alex Bailon <br> &copy 2020</span>
       </footer>
-    </main>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+    </div>
+  </main>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
